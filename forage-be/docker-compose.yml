@@ -1,0 +1,11 @@
+# version:
+services:
+  mongo:
+    image: mongo:latest
+    restart: always
+    ports:
+      - 27017:27017
+    expose: 
+      - 27017:27017
+
+# vim: ft=yaml ts=2 sw=2 sts=-1 sta et
